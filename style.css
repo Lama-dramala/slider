@@ -1,0 +1,41 @@
+.container{
+    width: 1170px;
+    margin: 50px auto;  
+    padding: 0 50px;  
+    position: relative;
+}
+.owl-carousel{    
+    position: relative;
+}
+.owl-carousel_slide{
+    border: 2px solid grey;    
+    box-sizing: border-box;
+    background-color: gold;
+    height: 500px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.owl-prev, .owl-next{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;    
+    font-size: 5rem !important;
+}
+.owl-prev{  
+    left: -50px;
+}
+.owl-next{    
+    right: -50px;    
+}
+.slider-clone{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1270px;
+    z-index: -1;
+}
